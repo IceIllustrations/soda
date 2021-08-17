@@ -1,0 +1,223 @@
+html {
+    height:100%;
+    margin:auto;
+}
+
+body {
+    background-image: linear-gradient(#D43D68,#d62249);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    transform: scale(1);
+    background-size: auto, cover;
+    font-family: arial;
+}
+
+#wrapper {
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+
+#main {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+#main > .inner > * {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.flair {
+    position:absolute;
+    z-index:-2;
+    margin:0 0
+}
+
+.flair-positioning {
+    top:30%;
+    left:-.6%;
+    position:absolute;
+}
+
+.corner {
+    position:absolute;
+    z-index: -0;
+    margin:0 0;
+    transform:scaley(-1)
+}
+
+.corner-positioning {
+    bottom:120px;
+    left:-.6%;
+    position:absolute;
+}
+
+.icons {
+    padding: 0;
+}
+
+.icons li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 10px 5px 0 5px;
+}
+
+.Portfolio {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    background: none;
+    padding: 3px 40px;
+    margin-top:10px;
+    position:relative;
+}
+
+.Portfolio:hover {
+    color:#7e0026;
+    border:1px solid #7e0026;
+    background: none;
+    padding: 3px 40px;
+    margin-top:10px;
+    position:relative;
+}
+
+.hype {
+    padding: 0 .5%;
+    color: white;
+}
+
+.twitter {
+    padding: 0 .5%;
+    color: white;
+}
+
+.twitch {
+    padding: 0 .5%;
+    color: white;
+}
+
+.youtube {
+    padding: 0 .5%;
+    color: white;
+}
+
+.discord {
+    padding: 0 .5%;
+    color: white;
+}
+
+.tiktok {
+    padding: 0 .5%;
+    color: white;
+}
+
+.instagram {
+    padding: 0 .5%;
+    color: white;
+}
+
+.hype:hover {
+    color: #7e0026;
+}
+
+.twitter:hover {
+    color: #7e0026;
+}
+
+.twitch:hover {
+    color: #7e0026;
+}
+
+.youtube:hover {
+    color: #7e0026;
+}
+
+.discord:hover {
+    color: #7e0026;
+}
+
+.tiktok:hover {
+    color: #7e0026;
+}
+
+.instagram:hover {
+    color: #7e0026;
+}
+
+.button {
+    text-decoration: none;
+    color: #E43ABB;
+    border: 1px solid #E43ABB;
+    background: none;
+    padding: 5px 40px;
+    position:relative;
+}
+
+.button-align {
+    position: absolute;
+    bottom: 15px;
+    right: 1;
+}
+
+.button:hover {
+    background: #34F27B;
+}
+
+.footer {
+    position:absolute;
+    bottom:-1%;
+    z-index: 1;
+}
+
+.footer a {
+    color:inherit;
+}
+
+.separator {
+    display: inline-flex;
+    color:blue;
+    z-index: 10;
+
+}
+
